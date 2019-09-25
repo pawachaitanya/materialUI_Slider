@@ -3,7 +3,7 @@
   "_id": "@material-ui/core@4.4.1",
   "_inBundle": false,
   "_integrity": "sha512-LotIIGv8EDMj6mwXobsMF4WlCe+PtMjrXa34U2B0xFMdZLrNYwdOHFgkAIaE0m/ibMXTobNKWqhc5bhXLxvXoQ==",
-  "_location": "/@material-ui/core",
+  "_location": "/@material-ui_Slider/",
   "_phantomChildren": {
     "@emotion/hash": "0.7.2",
     "@material-ui/types": "4.1.1",
