@@ -1,8 +1,3 @@
-/** @license Material-UI v4.1.0
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
@@ -10,51 +5,94 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-Object.defineProperty(exports, "chainPropTypes", {
+var _exportNames = {
+  deprecatedPropType: true,
+  useIsFocusVisible: true,
+  ownerDocument: true,
+  ownerWindow: true,
+  requirePropFactory: true,
+  unsupportedProp: true,
+  useEventCallback: true
+};
+Object.defineProperty(exports, "deprecatedPropType", {
   enumerable: true,
   get: function get() {
-    return _chainPropTypes.default;
+    return _deprecatedPropType.default;
   }
 });
-Object.defineProperty(exports, "elementAcceptingRef", {
+Object.defineProperty(exports, "useIsFocusVisible", {
   enumerable: true,
   get: function get() {
-    return _elementAcceptingRef.default;
+    return _focusVisible.useIsFocusVisible;
   }
 });
-Object.defineProperty(exports, "elementTypeAcceptingRef", {
+Object.defineProperty(exports, "ownerDocument", {
   enumerable: true,
   get: function get() {
-    return _elementTypeAcceptingRef.default;
+    return _ownerDocument.default;
   }
 });
-Object.defineProperty(exports, "exactProp", {
+Object.defineProperty(exports, "ownerWindow", {
   enumerable: true,
   get: function get() {
-    return _exactProp.default;
+    return _ownerWindow.default;
   }
 });
-Object.defineProperty(exports, "getDisplayName", {
+Object.defineProperty(exports, "requirePropFactory", {
   enumerable: true,
   get: function get() {
-    return _getDisplayName.default;
+    return _requirePropFactory.default;
   }
 });
-Object.defineProperty(exports, "ponyfillGlobal", {
+Object.defineProperty(exports, "unsupportedProp", {
   enumerable: true,
   get: function get() {
-    return _ponyfillGlobal.default;
+    return _unsupportedProp.default;
+  }
+});
+Object.defineProperty(exports, "useEventCallback", {
+  enumerable: true,
+  get: function get() {
+    return _useEventCallback.default;
   }
 });
 
-var _chainPropTypes = _interopRequireDefault(require("./chainPropTypes"));
+var _deprecatedPropType = _interopRequireDefault(require("./deprecatedPropType"));
 
-var _elementAcceptingRef = _interopRequireDefault(require("./elementAcceptingRef"));
+var _helpers = require("./helpers");
 
-var _elementTypeAcceptingRef = _interopRequireDefault(require("./elementTypeAcceptingRef"));
+Object.keys(_helpers).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _helpers[key];
+    }
+  });
+});
 
-var _exactProp = _interopRequireDefault(require("./exactProp"));
+var _reactHelpers = require("./reactHelpers");
 
-var _getDisplayName = _interopRequireDefault(require("./getDisplayName"));
+Object.keys(_reactHelpers).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _reactHelpers[key];
+    }
+  });
+});
 
-var _ponyfillGlobal = _interopRequireDefault(require("./ponyfillGlobal"));
+var _focusVisible = require("./focusVisible");
+
+var _ownerDocument = _interopRequireDefault(require("./ownerDocument"));
+
+var _ownerWindow = _interopRequireDefault(require("./ownerWindow"));
+
+var _requirePropFactory = _interopRequireDefault(require("./requirePropFactory"));
+
+var _unsupportedProp = _interopRequireDefault(require("./unsupportedProp"));
+
+var _useEventCallback = _interopRequireDefault(require("./useEventCallback"));
