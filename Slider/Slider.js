@@ -247,7 +247,7 @@ var styles = function styles(theme) {
     rail: {
       display: 'block',
       position: 'absolute',
-      width: '100%',
+      width: '80%',
       height: 2,
       borderRadius: 1,
       backgroundColor: 'currentColor',
