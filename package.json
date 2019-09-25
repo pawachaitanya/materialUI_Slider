@@ -1,6 +1,6 @@
 {
-  "_from": "@material-ui/core@^4.1.3",
-  "_id": "@material-ui/core@4.4.1",
+  "_from": "@material-ui_Slider",
+  "_id": "@material-ui_Slider",
   "_inBundle": false,
   "_integrity": "sha512-LotIIGv8EDMj6mwXobsMF4WlCe+PtMjrXa34U2B0xFMdZLrNYwdOHFgkAIaE0m/ibMXTobNKWqhc5bhXLxvXoQ==",
   "_location": "/@material-ui_Slider",
@@ -22,9 +22,9 @@
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "@material-ui/core@^4.1.3",
+    "raw": "@material-ui_Slider",
     "name": "@material-ui_Slider",
-    "escapedName": "@material-ui%2fcore",
+    "escapedName": "@material-ui_Slider",
     "scope": "@material-ui",
     "rawSpec": "^4.1.3",
     "saveSpec": null,
@@ -36,7 +36,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/@material-ui/core/-/core-4.4.1.tgz",
   "_shasum": "cc9b8e417ced1ab3145fdeda41a6aee657d3524b",
-  "_spec": "@material-ui/core@^4.1.3",
+  "_spec": "@material-ui_Slider",
   "_where": "/Users/chaitanyapawa/MTX2/ai-engine-loan-web-dashboard",
   "author": {
     "name": "Material-UI Team"
@@ -78,7 +78,7 @@
   "license": "MIT",
   "main": "./index.js",
   "module": "./esm/index.js",
-  "name": "@material-ui/core",
+  "name": "@material-ui_Slider",
   "peerDependencies": {
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
