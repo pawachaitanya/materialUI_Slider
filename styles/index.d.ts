@@ -1,24 +1,13 @@
-export * from './colorManipulator';
-export { default as createMuiTheme, Theme, Direction } from './createMuiTheme';
-export {
-  default as createPalette,
-  PaletteColorOptions,
-  SimplePaletteColorOptions,
-} from './createPalette';
+export { default as createGenerateClassName } from './createGenerateClassName';
 export { default as createStyles } from './createStyles';
-export { TypographyStyle } from './createTypography';
+export { default as getThemeProps } from './getThemeProps';
+export { default as jssPreset } from './jssPreset';
 export { default as makeStyles } from './makeStyles';
-export { default as MuiThemeProvider } from './MuiThemeProvider';
-export { default as responsiveFontSizes } from './responsiveFontSizes';
-export { ComponentsPropsList } from './props';
-export * from './transitions';
-export { default as useTheme } from './useTheme';
-export {
-  default as withStyles,
-  WithStyles,
-  StyleRules,
-  StyleRulesCallback,
-  StyledComponentProps,
-} from './withStyles';
-export { default as withTheme, WithTheme } from './withTheme';
-export { default as styled, ComponentCreator, StyledProps } from './styled';
+export { default as mergeClasses } from './mergeClasses';
+export { default as ServerStyleSheets } from './ServerStyleSheets';
+export { default as styled } from './styled';
+export { default as StylesProvider } from './StylesProvider';
+export { default as ThemeProvider } from './ThemeProvider';
+export { default as useTheme } from '@material-ui/styles/useTheme';
+export { default as withStyles, CSSProperties, StyleRules, WithStyles } from './withStyles';
+export { default as withTheme, WithTheme, withThemeCreator } from './withTheme';
